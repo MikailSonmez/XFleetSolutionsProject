@@ -7,8 +7,8 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         plugin = {"html:target/failed-html-report"},
-        features = "@target/rerun.txt",
-        glue = "com/xfleet/step_definitions"
+        features = "src/test/resources/features",
+        glue = "step_definitions"
 )
 public class FailedTestRunner {
 }

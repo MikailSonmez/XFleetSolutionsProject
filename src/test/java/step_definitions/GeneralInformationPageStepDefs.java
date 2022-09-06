@@ -1,9 +1,9 @@
-package com.xfleet.step_definitions;
+package step_definitions;
 
-import com.xfleet.pages.GeneralInformationPage;
-import com.xfleet.pages.VehiclesPage;
-import com.xfleet.utilities.BrowserUtils;
-import com.xfleet.utilities.Driver;
+import pages.GeneralInformationPage;
+import pages.VehiclesPage;
+import utilities.BrowserUtils;
+import utilities.Driver;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;

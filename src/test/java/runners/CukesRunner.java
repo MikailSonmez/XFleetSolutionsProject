@@ -6,14 +6,14 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        plugin = {"json:target/cucumber.json",
-                "html:target/default-html-reports",
-                "rerun:target/rerun.txt"},
-        features = "src/test/resources/features",
-        glue = "com/xfleet/step_definitions",
-        dryRun = false,
-        tags = "@FLTAPS-1210"
-
+        plugin={"html:target\\cucumber-reports.html",
+                "json:target/json-reports/Pcucumber1.json",
+                "junit:target/xml-report/Pcucumber1.xml"},
+        features="src/test/resources/features",
+        glue = "step_definitions",
+        tags="@FLTAPS-1210",
+        dryRun = false
 )
 public class CukesRunner {
+
 }

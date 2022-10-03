@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed255c30-383b-4bc0-a83f-05700aa669fe" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/GeneralInformationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/GeneralInformationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/FailedTestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/FailedTestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/GeneralInformationPageStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/GeneralInformationPageStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ConfigurationReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigurationReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/AddEvent.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/AddEvent.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/DeleteCar.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/DeleteCar.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/FilterLastOdometer.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/FilterLastOdometer.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/GridPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/GridPage.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/LogOutFunctionSmoke.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/LogOutFunctionSmoke.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/LoginPageSmoke.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/LoginPageSmoke.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/ManageFilters.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ManageFilters.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/VehicleInformation-1129.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/VehicleInformation-1129.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/VehiclesPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/VehiclesPage.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/vehicleTableView.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/vehicleTableView.feature" afterDir="false" />
-    </list>
+    <list default="true" id="ed255c30-383b-4bc0-a83f-05700aa669fe" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

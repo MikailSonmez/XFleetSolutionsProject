@@ -43,6 +43,7 @@ public abstract class BasePage {
         waitUntilLoaderScreenDisappear();
 //        BrowserUtils.waitForStaleElement(pageSubTitle);
         return pageSubTitle.getText();
+
     }
 
 

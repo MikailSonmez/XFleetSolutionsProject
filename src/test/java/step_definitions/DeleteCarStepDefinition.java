@@ -24,6 +24,7 @@ public class DeleteCarStepDefinition {
     public void the_user_clicks_Fleet_Vehicles_module() {
         DashBoardPage dashBoardPage = new DashBoardPage();
         dashBoardPage.navigateTo("Fleet","Vehicles");
+
     }
 
     @When("the user clicks three dot button")

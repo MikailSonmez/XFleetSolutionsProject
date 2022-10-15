@@ -41,6 +41,7 @@ public class DeleteCarStepDefinition {
         BrowserUtils.waitFor(3);
         Assert.assertTrue(vehiclePage.deleteIcon.isDisplayed());
         vehiclePage.logOut();
+
     }
 
     @When("the user clicks delete button")
@@ -49,12 +50,14 @@ public class DeleteCarStepDefinition {
         actions.moveToElement(vehiclePage.deleteIcon).perform();
         BrowserUtils.waitFor(3);
         vehiclePage.deleteIcon.click();
+
     }
 
     @Then("the user should see {string} pop up")
     public void the_user_should_see_pop_up(String string) {
         Assert.assertTrue(vehiclePage.deleteMessage.isDisplayed());
         vehiclePage.logOut();
+
     }
 
     @Then("the user should see {string} message")
@@ -64,6 +67,7 @@ public class DeleteCarStepDefinition {
         BrowserUtils.waitFor(3);
         Assert.assertTrue(vehiclePage.deletePermissionMessage.isDisplayed());
         vehiclePage.logOut();
+
     }
 
     @When("the user clicks delete button any row of car")

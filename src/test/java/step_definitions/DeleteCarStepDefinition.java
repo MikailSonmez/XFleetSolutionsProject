@@ -83,12 +83,14 @@ public class DeleteCarStepDefinition {
     public void the_user_can_delete_any_car_in_the_list() {
         Assert.assertTrue(vehiclePage.itemDeletedMessage.isDisplayed());
         vehiclePage.logOut();
+
     }
 
     @When("the user clicks any car row")
     public void the_user_clicks_any_car_row() {
         BrowserUtils.waitFor(3);
         vehiclePage.anyCarRow.click();
+
     }
 
     @When("the user clicks delete button in the {string} page")

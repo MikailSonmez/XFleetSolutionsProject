@@ -115,6 +115,7 @@ public class DeleteCarStepDefinition {
         String totalNumStr2 = vehiclePage.totalCarNumber.getText();
         String[] split2 = totalNumStr2.split(" ");
         totalNum2 = Integer.parseInt(split2[2]);
+
     }
 
     @Then("the user car should be deleted")
@@ -122,6 +123,7 @@ public class DeleteCarStepDefinition {
         Assert.assertTrue(totalNum-1==totalNum2);
 
         vehiclePage.logOut();
+
     }
 
 }

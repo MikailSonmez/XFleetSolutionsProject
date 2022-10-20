@@ -124,6 +124,7 @@ public class DeleteCarStepDefinition {
 
         vehiclePage.logOut();
 
+
     }
 
 }

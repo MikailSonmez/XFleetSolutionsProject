@@ -28,6 +28,7 @@ public class GeneralInformationPageStepDefs {
         BrowserUtils.waitFor(3);
         actions.moveToElement(vehiclesPage.anyThreeDot).perform();
         vehiclesPage.eyeIcon.click();
+
     }
 
     @Then("user should see Edit, Delete and Add Event buttons")

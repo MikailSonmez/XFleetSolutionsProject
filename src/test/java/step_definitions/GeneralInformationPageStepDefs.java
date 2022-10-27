@@ -37,6 +37,7 @@ public class GeneralInformationPageStepDefs {
         Assert.assertTrue("Edit button is not displayed",generalInformationPage.editButton.isDisplayed());
         Assert.assertTrue("Delete button is not displayed",generalInformationPage.deleteButton.isDisplayed());
         Assert.assertTrue("Add Event button is not displayed",generalInformationPage.addEventButton.isDisplayed());
+
     }
 
     @Then("verify that information on the vehicles page are same as the information on the General Information page")

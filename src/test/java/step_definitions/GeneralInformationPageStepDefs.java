@@ -20,6 +20,7 @@ public class GeneralInformationPageStepDefs {
     @Then("user should be on General Information page")
     public void user_should_be_on_General_Information_page() {
         Assert.assertEquals("Header is not as expected","General Information",generalInformationPage.generalInformationHeader.getText());
+
     }
 
     @When("user clicks Eye icon to navigate to General Information page")

@@ -17,6 +17,7 @@ public class GeneralInformationPageStepDefs {
     VehiclesPage vehiclesPage = new VehiclesPage();
     Actions actions = new Actions(Driver.get());
 
+
     @Then("user should be on General Information page")
     public void user_should_be_on_General_Information_page() {
         Assert.assertEquals("Header is not as expected","General Information",generalInformationPage.generalInformationHeader.getText());

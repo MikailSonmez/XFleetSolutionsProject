@@ -14,6 +14,7 @@ import java.util.List;
 public class GeneralInformationPageStepDefs {
 
     GeneralInformationPage generalInformationPage = new GeneralInformationPage();
+
     VehiclesPage vehiclesPage = new VehiclesPage();
 
     Actions actions = new Actions(Driver.get());

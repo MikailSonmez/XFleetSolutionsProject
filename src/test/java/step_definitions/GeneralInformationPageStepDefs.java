@@ -28,6 +28,7 @@ public class GeneralInformationPageStepDefs {
 
     @When("user clicks Eye icon to navigate to General Information page")
     public void user_clicks_Eye_icon_to_navigate_to_General_Information_page() {
+
         BrowserUtils.waitForPageToLoad(10);
         BrowserUtils.waitFor(3);
         actions.moveToElement(vehiclesPage.anyThreeDot).perform();

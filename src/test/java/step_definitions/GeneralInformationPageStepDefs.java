@@ -38,6 +38,7 @@ public class GeneralInformationPageStepDefs {
 
     @Then("user should see Edit, Delete and Add Event buttons")
     public void user_should_see_Edit_Delete_and_Add_Event_buttons() {
+
         BrowserUtils.waitForPageToLoad(10);
         Assert.assertTrue("Edit button is not displayed",generalInformationPage.editButton.isDisplayed());
         Assert.assertTrue("Delete button is not displayed",generalInformationPage.deleteButton.isDisplayed());

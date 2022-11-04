@@ -48,6 +48,7 @@ public class GeneralInformationPageStepDefs {
 
     @Then("verify that information on the vehicles page are same as the information on the General Information page")
     public void verify_that_information_on_the_vehicles_page_are_same_as_the_information_on_the_General_Information_page() {
+
         BrowserUtils.waitForPageToLoad(10);
 
         List<String> vehiclesInfo = BrowserUtils.getElementsText(vehiclesPage.anyRowInformationList);
